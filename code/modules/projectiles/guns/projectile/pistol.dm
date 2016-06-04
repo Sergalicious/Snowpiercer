@@ -49,6 +49,22 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/c45m
 
+/obj/item/weapon/gun/projectile/zenith
+	name = "10mm pistol"
+	desc = "A Mako-Ballistics Zenith 10mm combat pistol."
+	icon_state = "zenith"
+	magazine_type = /obj/item/ammo_magazine/c45m/flash
+	caliber = "10mm"
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
+	load_method = MAGAZINE
+
+/obj/item/weapon/gun/projectile/sec/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "zenith"
+	else
+		icon_state = "zenith-e"
+
 /obj/item/weapon/gun/projectile/deagle
 	name = "desert eagle"
 	desc = "A robust handgun that uses .50 AE ammo."
