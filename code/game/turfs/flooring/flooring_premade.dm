@@ -202,3 +202,130 @@
 /turf/simulated/floor/beach/water/New()
 	..()
 	overlays += image("icon"='icons/misc/beach.dmi',"icon_state"="water5","layer"=MOB_LAYER+0.1)
+
+//Let it snow~
+
+/turf/simulated/floor/snow
+	name = "snow"
+	icon = 'icons/turf/snow.dmi'
+	icon_state = "snow1"
+
+/turf/simulated/floor/snow/one
+	name = "snow"
+	icon = 'icons/turf/snow.dmi'
+	icon_state = "snow2"
+
+/turf/simulated/floor/snow/two
+	name = "snow"
+	icon = 'icons/turf/snow.dmi'
+	icon_state = "snow3"
+
+/turf/simulated/floor/snow/three
+	name = "snow"
+	icon = 'icons/turf/snow.dmi'
+	icon_state = "snow4"
+
+/turf/simulated/floor/snow/four
+	name = "snow"
+	icon = 'icons/turf/snow.dmi'
+	icon_state = "snow5"
+
+/turf/simulated/floor/train/floor
+	name = "floor"
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "floor"
+
+/turf/simulated/floor/train/ladder
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "ladder"
+
+/turf/simulated/floor/train/ladder2
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "ladder2"
+
+/turf/simulated/floor/train/ladder3
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "ladder3"
+
+/turf/simulated/floor/train/ladder4
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "ladder4"
+
+/turf/simulated/floor/train/trainstation
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "trainstation"
+
+/turf/simulated/floor/train/bar
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "bar2"
+
+/turf/simulated/floor/train/bar
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "bar2r"
+
+/turf/simulated/floor/train/carpet_sides
+	name = "carpet"
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "carpbet2side"
+
+/turf/simulated/floor/train/carpet
+	name = "carpet"
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "carpbet2"
+
+/turf/simulated/floor/train/carpetb_sides
+	name = "carpet"
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "carpet2side"
+
+/turf/simulated/floor/train/carpetb
+	name = "carpet"
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "carpet2"
+
+/turf/simulated/floor/train/stone1
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "troom1"
+
+/turf/simulated/floor/train/stone2
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "troom2"
+
+/turf/simulated/floor/train/stone3
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "troom3"
+
+/turf/simulated/floor/train/stone4
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "bf2"
+
+/turf/simulated/floor/train/stone5
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "bf22"
+
+/turf/simulated/floor/train/stone6
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "bf25"
+
+/turf/simulated/floor/train/stone7
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "nf2"
+
+/turf/simulated/floor/train/stone8
+	name = ""
+	icon = 'icons/turf/floor2.dmi'
+	icon_state = "nf22"
