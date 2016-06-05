@@ -13,3 +13,4 @@ use_map
 stopserver
 reboot_called
 atupdate
+.atom-build.json
