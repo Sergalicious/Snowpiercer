@@ -398,3 +398,11 @@
 				/obj/item/weapon/reagent_containers/food/snacks/checker/rook/red = 2,
 				/obj/item/weapon/reagent_containers/food/snacks/checker/queen/red = 1,
 				/obj/item/weapon/reagent_containers/food/snacks/checker/king/red = 1)
+
+
+/obj/item/weapon/storage/box/doll
+  name = "doll"
+  icon = 'icons/obj/toy.dmi'
+  desc = "A creepy doll"
+  icon_state = "doll"
+  max_storage_space = 3
